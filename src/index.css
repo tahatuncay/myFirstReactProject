@@ -1,0 +1,78 @@
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #f2f2f2;
+}
+.App {
+  background: linear-gradient(94.59deg, #4923B4 2.39%, #E878CF 97.66%);
+  border-bottom-right-radius: 250px;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  justify-content: flex-start;
+  font-size: "Poppins";
+}
+.navbar .links {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.navbar .entrance {
+  justify-content: flex-end;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  
+  padding: 140px;
+}
+.icerik {
+  flex: 1;
+  display: flex;
+}
+.iceriksol {
+  margin-right: 140px;
+  margin: 0px;
+}
+.iceriksag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  max-width: 55%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 450px; 
+
+}
+button {
+  background: #f1356d;
+  color: #f2f2f2;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.buttonn {
+  background: top;
+  color: #f2f2f2;
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
